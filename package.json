@@ -1,0 +1,28 @@
+{
+  "name": "restaurant-table-booking",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=26.3.0 <27" },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:frontend": "npm --prefix frontend test",
+    "typecheck": "tsc --noEmit",
+    "deploy:ganache": "hardhat run scripts/deploy.ts --network ganache",
+    "verify:ganache": "hardhat run scripts/verify-deployment.ts --network ganache",
+    "test:ganache": "hardhat run scripts/integration-ganache.ts --network ganache",
+    "inspect:demo": "hardhat run scripts/inspect-demo.ts --network ganache",
+    "demo:rejections": "hardhat run scripts/demo-rejections.ts --network ganache",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "hardhat": "3.22.0",
+    "@nomicfoundation/hardhat-ethers": "4.2.2",
+    "@nomicfoundation/hardhat-node-test-runner": "3.1.2",
+    "@types/node": "26.0.0",
+    "typescript": "5.9.3"
+  },
+  "dependencies": { "ethers": "6.17.0" }
+}

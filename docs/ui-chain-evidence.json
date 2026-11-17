@@ -1,0 +1,74 @@
+{
+  "inspectedAt": "2026-11-17T08:29:53.798Z",
+  "source": "Read-only RPC; UI source requires screenshot/user confirmation",
+  "chainId": "1337",
+  "contractAddress": "0xa504b217514805a4F51fc329D980445A3B0ec0Fe",
+  "tableId": "1",
+  "table": [
+    "true",
+    "4"
+  ],
+  "bookings": [
+    {
+      "slotId": "498587",
+      "customer": "0x3a9f1bC5DE0dA2d1e04BEbBA2c6B29f09ED0AaB7"
+    },
+    {
+      "slotId": "498611",
+      "customer": "0x0000000000000000000000000000000000000000"
+    }
+  ],
+  "events": [
+    {
+      "event": "TableRegistered",
+      "args": [
+        "1",
+        "4"
+      ],
+      "transactionHash": "0xc10cf8b1a4ce19dfe35aa80a954406c4ea4d0b73e8963f4eee62aced336a3245",
+      "blockNumber": 27,
+      "from": "0x2FE82257462dc3095D497e6ce446b2ce1Bba25ec",
+      "receiptStatus": 1,
+      "gasUsed": "112002"
+    },
+    {
+      "event": "TableReserved",
+      "args": [
+        "1",
+        "498587",
+        "0x810A640B6089B12ab3bb7Bde1697752129679828"
+      ],
+      "transactionHash": "0xc2e8d449b6d3d340e25a6859671c98323a49a0215310b112a2febc08ea5a2160",
+      "blockNumber": 34,
+      "from": "0x810A640B6089B12ab3bb7Bde1697752129679828",
+      "receiptStatus": 1,
+      "gasUsed": "48342"
+    },
+    {
+      "event": "BookingCancelled",
+      "args": [
+        "1",
+        "498587",
+        "0x810A640B6089B12ab3bb7Bde1697752129679828"
+      ],
+      "transactionHash": "0x0267b2c4ce3a5def0b5861f68a8635225100ffb8a15fedb73ec3063c66a8ed37",
+      "blockNumber": 35,
+      "from": "0x810A640B6089B12ab3bb7Bde1697752129679828",
+      "receiptStatus": 1,
+      "gasUsed": "26429"
+    },
+    {
+      "event": "TableReserved",
+      "args": [
+        "1",
+        "498587",
+        "0x3a9f1bC5DE0dA2d1e04BEbBA2c6B29f09ED0AaB7"
+      ],
+      "transactionHash": "0xf0fef69e003780634a7304bb80b5f11815769613e8da4ea78ffd40a127f2cab7",
+      "blockNumber": 36,
+      "from": "0x3a9f1bC5DE0dA2d1e04BEbBA2c6B29f09ED0AaB7",
+      "receiptStatus": 1,
+      "gasUsed": "48342"
+    }
+  ]
+}

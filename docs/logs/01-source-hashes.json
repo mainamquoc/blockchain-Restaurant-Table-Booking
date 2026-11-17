@@ -1,0 +1,42 @@
+﻿[
+    {
+        "Path":  "C:\\Users\\Quoc\\Desktop\\DTU\\Blockchain\\web3\\19_29211145181_Mai_Nam_Quoc.pdf",
+        "Hash":  "C9460A28EDD347AC25CD47CF90B882067BABC6915A23BB608F82E89E8F5AB89D"
+    },
+    {
+        "Path":  "C:\\Users\\Quoc\\Desktop\\DTU\\Blockchain\\web3\\DS441A_Restaurant_Table_Booking.md",
+        "Hash":  "FE4D9A12F9F7046EAB9F9DC70EB805E11BFC85B4284DDFB9824DBE7A73520AE7"
+    },
+    {
+        "Path":  "C:\\Users\\Quoc\\Desktop\\DTU\\Blockchain\\web3\\implementation-steps\\00_START_HERE.md",
+        "Hash":  "1E6357A3FB860862F4E243B8B7692359BE66EF40D3DAED1222D86162E32CD5D5"
+    },
+    {
+        "Path":  "C:\\Users\\Quoc\\Desktop\\DTU\\Blockchain\\web3\\implementation-steps\\01_ENVIRONMENT.md",
+        "Hash":  "564D1915B8D7AE8BB52212B9266FAEDDADB73FF295AEC667DA02E13293D2B3CF"
+    },
+    {
+        "Path":  "C:\\Users\\Quoc\\Desktop\\DTU\\Blockchain\\web3\\implementation-steps\\02_CONTRACT_AND_TESTS.md",
+        "Hash":  "AD729A54DEF48826750576408E452C9F0FEB896349473950BF51B1B1A9D8BF82"
+    },
+    {
+        "Path":  "C:\\Users\\Quoc\\Desktop\\DTU\\Blockchain\\web3\\implementation-steps\\03_GANACHE_AND_DEPLOY.md",
+        "Hash":  "CE77742855F9AD3B4E780641CE25DBAD7675BDDA1E60209658336BC4697E35AD"
+    },
+    {
+        "Path":  "C:\\Users\\Quoc\\Desktop\\DTU\\Blockchain\\web3\\implementation-steps\\04_WALLET_AND_FRONTEND.md",
+        "Hash":  "316071A7B8D42BDE016EDFFB86045997EA577F1810C4C8C2F12BA195338B8E04"
+    },
+    {
+        "Path":  "C:\\Users\\Quoc\\Desktop\\DTU\\Blockchain\\web3\\implementation-steps\\05_INTEGRATION_AND_DEMO.md",
+        "Hash":  "FA0D9E2FFBA118225C2897B0B789DE44B30851C53923907F6CDACC873E58311F"
+    },
+    {
+        "Path":  "C:\\Users\\Quoc\\Desktop\\DTU\\Blockchain\\web3\\implementation-steps\\06_DOCUMENTATION_AND_HANDOFF.md",
+        "Hash":  "C786443E377DD045D3BEA212F50155B05A3ADF58770E6693EDCA81CF3309EA2D"
+    },
+    {
+        "Path":  "C:\\Users\\Quoc\\Desktop\\DTU\\Blockchain\\web3\\implementation-steps\\STATUS_TEMPLATE.md",
+        "Hash":  "2E86474ED1056DD7CDFD71A39B7EAD27CDDA11D584B416B397D67D6D888CCAD5"
+    }
+]

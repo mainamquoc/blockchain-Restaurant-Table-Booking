@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-11-17T08:25:35.622Z",
+  "chainId": "1337",
+  "contractAddress": "0xa504b217514805a4F51fc329D980445A3B0ec0Fe",
+  "tableId": "1",
+  "slotId": "498587",
+  "customerA": "0x810A640B6089B12ab3bb7Bde1697752129679828",
+  "customerB": "0x3a9f1bC5DE0dA2d1e04BEbBA2c6B29f09ED0AaB7",
+  "status": "PASS",
+  "steps": [
+    {
+      "method": "reserve",
+      "customError": "SlotAlreadyBooked",
+      "args": [
+        "1",
+        "498587"
+      ],
+      "status": "PASS",
+      "rejection": "before send (estimateGas)",
+      "transactionHash": null,
+      "bookingUnchanged": true,
+      "logsUnchanged": true
+    },
+    {
+      "method": "cancel",
+      "customError": "NotBookingOwner",
+      "args": [],
+      "status": "PASS",
+      "rejection": "before send (estimateGas)",
+      "transactionHash": null,
+      "bookingUnchanged": true,
+      "logsUnchanged": true
+    }
+  ]
+}

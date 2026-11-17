@@ -1,0 +1,61 @@
+{
+  "startedAt": "2026-11-17T08:21:59.049Z",
+  "environment": "Ganache RPC (not MetaMask)",
+  "status": "FAILED",
+  "rpcUrl": "http://127.0.0.1:7545/",
+  "steps": [
+    {
+      "label": "Owner registers dedicated integration table",
+      "type": "transaction",
+      "transactionHash": "0xead655a99e783b6801e008223f3932befef7b4ebf8274762ac11cf93f02a09c7",
+      "status": "PASS",
+      "blockNumber": 28,
+      "receiptStatus": 1,
+      "gasUsed": "94914",
+      "feeWei": "3830466602790",
+      "event": {
+        "name": "TableRegistered",
+        "args": [
+          "1000",
+          "4"
+        ]
+      }
+    },
+    {
+      "label": "A reserves",
+      "type": "transaction",
+      "transactionHash": "0x2485179b814e0d3a759053d759017dfa996b9a3113e2f969fc6e1fa3b4a1d66c",
+      "status": "PASS",
+      "blockNumber": 29,
+      "receiptStatus": 1,
+      "gasUsed": "48354",
+      "feeWei": "1714393100868",
+      "event": {
+        "name": "TableReserved",
+        "args": [
+          "1000",
+          "498611",
+          "0x810A640B6089B12ab3bb7Bde1697752129679828"
+        ]
+      }
+    }
+  ],
+  "chainId": "1337",
+  "clientVersion": "Ganache/v7.7.3/EthereumJS TestRPC/v7.7.3/ethereum-js",
+  "contractAddress": "0xa504b217514805a4F51fc329D980445A3B0ec0Fe",
+  "accounts": {
+    "owner": "0x2FE82257462dc3095D497e6ce446b2ce1Bba25ec",
+    "customerA": "0x810A640B6089B12ab3bb7Bde1697752129679828",
+    "customerB": "0x3a9f1bC5DE0dA2d1e04BEbBA2c6B29f09ED0AaB7"
+  },
+  "balancesBeforeWei": [
+    "99974472681979436951",
+    "99981263920000000000",
+    "99992998880000000000"
+  ],
+  "tableId": "1000",
+  "slotId": "498611",
+  "slot": "2026-11-18 18:00–19:00 UTC+07:00",
+  "finishedAt": "2026-11-17T08:21:59.850Z",
+  "error": "Expected hex revert data"
+}
