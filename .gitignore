@@ -11,3 +11,6 @@ dist/
 .ganache/
 ganache-data/
 chain-data/
+submission/
+archived/
+docs/deployments/

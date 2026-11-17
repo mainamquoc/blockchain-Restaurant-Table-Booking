@@ -10,10 +10,6 @@
     "test:frontend": "npm --prefix frontend test",
     "typecheck": "tsc --noEmit",
     "deploy:ganache": "hardhat run scripts/deploy.ts --network ganache",
-    "verify:ganache": "hardhat run scripts/verify-deployment.ts --network ganache",
-    "test:ganache": "hardhat run scripts/integration-ganache.ts --network ganache",
-    "inspect:demo": "hardhat run scripts/inspect-demo.ts --network ganache",
-    "demo:rejections": "hardhat run scripts/demo-rejections.ts --network ganache",
     "dev": "npm --prefix frontend run dev",
     "build": "npm --prefix frontend run build"
   },
